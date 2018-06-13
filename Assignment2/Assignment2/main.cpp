@@ -17,7 +17,7 @@ int main() {
     int start;
     int stop;
     int step;
-    cout << "Enter Star Fahrenheit: ";
+    cout << "Enter Start Fahrenheit: ";
     cin >> start;
     cout << "Enter Stop Fahrenheit: ";
     cin >> stop;
