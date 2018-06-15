@@ -3,7 +3,8 @@
  SID#: 0472702
  Date: 06/13/2018
  Asignment#: 2
- Description: To create a C++console application that generates a simple Fahrenheit to Celsius conversion table based on user input. */
+ Description: To create a C++console application that generates a simple Fahrenheit to Celsius conversion table based on user input.
+ */
 
 #include <iostream>
 #include <iomanip>
@@ -17,7 +18,7 @@ int main() {
     int start;
     int stop;
     int step;
-    cout << "Enter Star Fahrenheit: ";
+    cout << "Enter Start Fahrenheit: ";
     cin >> start;
     cout << "Enter Stop Fahrenheit: ";
     cin >> stop;
@@ -34,8 +35,6 @@ int main() {
         cout << fixed << setprecision(1);
         cout << fah << "\t\t" <<cel ;
         cout << endl;
-        
-    
     }
     return 0;
 }
