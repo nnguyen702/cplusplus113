@@ -53,9 +53,12 @@ int main()
             cout << "Go Again!" << endl;
             cin >> response;
             cout << endl;
-            
-        
-   
+     
+            		do {
+              cin >> response;
+           cout << endl;
+          } while (toupper(response) != 'N' && toupper(response) != 'Y');
+ 
     }while(toupper(response) == 'Y');
     
     cout << "Thank you for using Fun with Multiplication!" << endl;
