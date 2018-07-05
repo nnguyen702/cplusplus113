@@ -1,7 +1,7 @@
 /*
  Name: Ngoc Nguyen
  SID#: 0472702
- Date: 06/15/2018
+ Date: 06/19/2018
  Assignment#: 3
  Description: To create a C++ Console application that utilizes looping control structures to create the Fun with Multiplication application.
  */
@@ -53,12 +53,7 @@ int main()
             cout << "Go Again!" << endl;
             cin >> response;
             cout << endl;
-     
-            		do {
-              cin >> response;
-           cout << endl;
-          } while (toupper(response) != 'N' && toupper(response) != 'Y');
- 
+        
     }while(toupper(response) == 'Y');
     
     cout << "Thank you for using Fun with Multiplication!" << endl;
